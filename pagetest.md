@@ -3,7 +3,6 @@ layout: page
 title: "please"
 permalink: /pleasework/
 ---
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@ permalink: /pleasework/
         .container {
             display: flex;
             flex-wrap: nowrap;
-            align-items: flex-start; 
+            align-items: center; 
         }
         .image-section {
             flex: 0 0 400px;
