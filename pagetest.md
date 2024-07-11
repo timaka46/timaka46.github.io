@@ -20,8 +20,8 @@ permalink: /pleasework/
             flex-wrap: wrap;
         }
         .image-section {
-            flex: 1 1 200px;
-            margin-right: 20px;
+            flex: 1 1 400px;
+            margin-right: 50px;
         }
         .image-section img {
             max-width: 100%;
