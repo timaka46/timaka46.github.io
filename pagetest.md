@@ -20,16 +20,16 @@ permalink: /pleasework/
             flex-wrap: wrap;
         }
         .image-section {
-            flex: 1 1 250px;
+            flex: 1 1 400px;
             margin-right: 50px;
         }
         .image-section img {
-            max-width: 100%;
+            width: 100%; 
             height: auto;
             display: block;
         }
         .text-section {
-            flex: 2 1 calc(100% - 220px);
+            flex: 2 1 calc(100% - 450px);
         }
         .text-section p:first-child {
             display: block;
@@ -62,8 +62,6 @@ permalink: /pleasework/
             <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
             <p class="continued">БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
         </div>
-        тест1
     </div>
-    тест2
 </body>
 </html>
