@@ -3,7 +3,6 @@ layout: page
 title: "please"
 permalink: /pleasework/
 ---
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@ permalink: /pleasework/
             height: auto;
         }
         a {
-            color: #a0a0a2;
+            color: #a1a2a3;
             text-decoration: none;
             display: block;
             margin-bottom: 10px;
@@ -41,13 +40,15 @@ permalink: /pleasework/
     </style>
 </head>
 <body>
+    Моё фото
+    </div>
     <div class="image-container">
         <img src="/assets/image_1.jpg" alt="Пример изображения">
     </div>
     <div class="content">
         <a href="/assets/document1.pdf" target="_blank">первый документ</a>
         <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
-        <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</p>
+        <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст<br>БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
     </div>
 </body>
 </html>
