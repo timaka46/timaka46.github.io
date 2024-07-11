@@ -3,6 +3,7 @@ layout: page
 title: "please"
 permalink: /pleasework/
 ---
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -15,13 +16,22 @@ permalink: /pleasework/
             font-family: Arial, sans-serif;
             padding: 20px;
         }
+        .header {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
         .container {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             align-items: flex-start; 
         }
         .image-section {
-            flex: 1 1 400px;
+            flex: 0 0 400px; 
             margin-right: 50px;
         }
         .image-section img {
@@ -30,7 +40,7 @@ permalink: /pleasework/
             display: block;
         }
         .text-section {
-            flex: 2 1 calc(100% - 450px);
+            flex: 1;
         }
         .text-section p:first-child {
             display: block;
@@ -53,7 +63,7 @@ permalink: /pleasework/
 </head>
 <body>
     <div class="header">
-        <h1>Bottom Text</h1>
+        <h1>Большой заголовок</h1>
     </div>
     <div class="container">
         <div class="image-section">
@@ -66,9 +76,11 @@ permalink: /pleasework/
             <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
             <p class="continued">БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
         </div>
-        <br>
-        тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст
     </div>
-    ТЕКСТ 2 ВОТ ПРЯМ ОЧЕНЬ ЖЕСТКИЙ
+    <div>
+        тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст
+        <br>
+        ТЕКСТ 2 ВОТ ПРЯМ ОЧЕНЬ ЖЕСТКИЙ
+    </div>
 </body>
 </html>
