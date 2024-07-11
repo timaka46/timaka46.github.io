@@ -42,11 +42,11 @@ permalink: /pleasework/
 </head>
 <body>
     <div class="image-container">
-        <img src="assets/image_1.jpg" alt="Пример изображения">
+        <img src="/assets/image_1.jpg" alt="Пример изображения">
     </div>
     <div class="content">
-        <a href="assets/document1.pdf" target="_blank">первый документ</a>
-        <a href="assets/document2.pdf" target="_blank">второйдокумент</a>
+        <a href="/assets/document1.pdf" target="_blank">первый документ</a>
+        <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
         <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</p>
     </div>
 </body>
