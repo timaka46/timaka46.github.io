@@ -18,6 +18,7 @@ permalink: /pleasework/
         .container {
             display: flex;
             flex-wrap: wrap;
+            align-items: flex-start; 
         }
         .image-section {
             flex: 1 1 400px;
@@ -60,7 +61,6 @@ permalink: /pleasework/
             <img src="/assets/image_1.jpg" alt="Пример изображения">
         </div>
         <div class="text-section">
-            <p> </p>
             <p>всем привет меня зовут американ психо (american psycho)</p>
             <a href="/assets/document1.pdf" target="_blank">первый документ</a>
             <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
