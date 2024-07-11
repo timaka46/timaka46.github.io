@@ -29,23 +29,24 @@ permalink: /pleasework/
             height: auto;
         }
         a {
-            color: #4da6ff;
+            color: #a0a0a2;
             text-decoration: none;
             display: block;
             margin-bottom: 10px;
         }
         a:hover {
             text-decoration: underline;
+            color: #c0c0c0;
         }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <img src="https://example.com/image.jpg" alt="Пример изображения">
+        <img src="assets/image_1.jpg" alt="Пример изображения">
     </div>
     <div class="content">
-        <a href="document1.pdf" target="_blank">первый документ</a>
-        <a href="document2.pdf" target="_blank">второйдокумент</a>
+        <a href="assets/document1.pdf" target="_blank">первый документ</a>
+        <a href="assets/document2.pdf" target="_blank">второйдокумент</a>
         <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</p>
     </div>
 </body>
