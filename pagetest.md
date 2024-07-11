@@ -60,7 +60,7 @@ permalink: /pleasework/
             <img src="/assets/image_1.jpg" alt="Пример изображения">
         </div>
         <div class="text-section">
-            <br>
+            <p>
             <p>всем привет меня зовут американ психо (american psycho)</p>
             <a href="/assets/document1.pdf" target="_blank">первый документ</a>
             <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
