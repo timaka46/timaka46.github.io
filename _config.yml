@@ -1,5 +1,3 @@
+theme: jekyll-theme-minimal
 title: Second Attempt
 description: Desc1
-baseurl: "/test"
-url: "https://timaka46.github.io"
-theme: jekyll-theme-minimal
