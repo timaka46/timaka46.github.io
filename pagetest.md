@@ -51,6 +51,9 @@ permalink: /pleasework/
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Bottom Text</h1>
+    </div>
     <div class="container">
         <div class="image-section">
             <p>Моё фото</p>
@@ -62,6 +65,8 @@ permalink: /pleasework/
             <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
             <p class="continued">БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
         </div>
+        текст1
     </div>
+    текст2
 </body>
 </html>
