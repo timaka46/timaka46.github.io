@@ -1,5 +1,5 @@
 title: Second Attempt
 description: Desc1
-baseurl: ""
-url: "https://timaka46.github.io/test"
-theme: jekyll-theme-minimal 
+baseurl: "/test"
+url: "https://timaka46.github.io"
+theme: jekyll-theme-minimal
