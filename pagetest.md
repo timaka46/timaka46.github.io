@@ -13,19 +13,30 @@ permalink: /pleasework/
             background-color: #1a1a1a;
             color: #ffffff;
             font-family: Arial, sans-serif;
-            display: flex;
             padding: 20px;
         }
-        .image-container {
-            flex: 1;
-            margin-right: 20px;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
         }
-        .content {
-            flex: 2;
+        .image-section {
+            flex: 1 1 100%;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        img {
+        .image-section img {
             max-width: 100%;
             height: auto;
+        }
+        .text-section {
+            flex: 1 1 100%;
+        }
+        .text-section p {
+            display: inline;
+        }
+        .text-section .continued-text {
+            display: block;
+            margin-top: 20px;
         }
         a {
             color: #a1a2a3;
@@ -40,15 +51,22 @@ permalink: /pleasework/
     </style>
 </head>
 <body>
-    Моё фото
+    <div class="container">
+        <div class="image-section">
+            <p>Моё фото</p>
+            <img src="/assets/image_1.jpg" alt="Пример изображения">
+        </div>
+        <div class="text-section">
+            <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст</p>
+            <div class="continued-text">
+                <a href="/assets/document1.pdf" target="_blank">первый документ</a>
+                <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
+                <p>БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
+            </div>
+            тест1
+        </div>
+        тест2
     </div>
-    <div class="image-container">
-        <img src="/assets/image_1.jpg" alt="Пример изображения">
-    </div>
-    <div class="content">
-        <a href="/assets/document1.pdf" target="_blank">первый документ</a>
-        <a href="/assets/document2.pdf" target="_blank">второйдокумент</a>
-        <p>тексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттексттекст<br>БОЛЬШЕТЕКСТА вот реально много<br> ну вроде вот так</p>
-    </div>
+    тест3
 </body>
 </html>
