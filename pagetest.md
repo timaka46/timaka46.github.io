@@ -15,6 +15,7 @@ permalink: /pleasework/
             color: #ffffff;
             font-family: Arial, sans-serif;
             padding: 20px;
+            font-size: 18px;
         }
         .header {
             width: 100%;
@@ -31,8 +32,14 @@ permalink: /pleasework/
             align-items: flex-start; 
         }
         .image-section {
-            flex: 0 0 400px; 
+            flex: 0 0 400px;
             margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-section p {
+            font-size: 1.2em;
         }
         .image-section img {
             width: 100%; 
@@ -41,6 +48,9 @@ permalink: /pleasework/
         }
         .text-section {
             flex: 1;
+        }
+        .text-section p {
+            font-size: 1.2em;
         }
         .text-section p:first-child {
             display: block;
@@ -54,6 +64,7 @@ permalink: /pleasework/
             text-decoration: none;
             display: block;
             margin-bottom: 10px;
+            font-size: 1.2em;
         }
         a:hover {
             text-decoration: underline;
